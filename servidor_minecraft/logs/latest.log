@@ -1,0 +1,716 @@
+[19Aug2026 16:50:23.198] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[19Aug2026 16:50:23.202] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[19Aug2026 16:50:28.043] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[19Aug2026 16:50:28.191] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/proyecto67/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[19Aug2026 16:50:28.771] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/proyecto67/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[19Aug2026 16:50:28.772] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/proyecto67/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Aug2026 16:50:28.773] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/proyecto67/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Aug2026 16:50:28.774] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/proyecto67/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Aug2026 16:50:29.306] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
+[19Aug2026 16:50:32.473] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[19Aug2026 16:50:32.830] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[19Aug2026 16:50:32.834] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[19Aug2026 16:50:32.845] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Aug2026 16:50:33.185] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.66+mc1.20.1: 110 options available, 0 override(s) found
+[19Aug2026 16:50:33.187] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[19Aug2026 16:50:33.212] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[19Aug2026 16:50:33.438] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Aug2026 16:50:33.541] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Aug2026 16:50:33.623] [main/INFO] [Puzzles Lib/]: Loading 70 mods:
+	- alexscaves 2.0.2
+	- alexsmobs 1.22.9
+	- architectury 9.2.14
+	- artifacts 9.5.19
+		\-- expandability 9.0.4
+	- balm 7.3.42
+		\-- kuma_api 20.1.12
+	- betterbiomeblend 1.4.0
+	- biomesoplenty 18.0.0.592
+	- blueprint 7.1.3
+	- bygonenether 1.3.2
+	- carryon 2.1.2.7
+	- cataclysm 3.31
+	- chunky 1.3.146
+	- citadel 2.6.3
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- coroutil 1.20.1-1.3.7
+	- creativecore 2.12.39
+	- cupboard 1.20.1-3.9
+	- curios 5.14.1+1.20.1
+	- endergetic 5.0.1
+	- endrem 5.3.3-R-1.20.1
+	- entityculling 1.10.5
+		|-- transition 1.0.21
+		\-- trender 1.0.15
+	- fastfurnace 8.0.2
+	- ferritecore 6.0.1
+	- forge 47.3.7
+	- framework 0.8.0
+	- geckolib 4.8.4
+	- iceandfire 2.1.13-1.20.1
+	- immediatelyfast 1.5.5+1.20.4
+	- ironchest 1.20.1-14.4.4
+	- jade 11.13.3+forge
+	- jei 15.20.0.112
+	- kotlinforforge 4.12.0
+	- lionfishapi 3.0
+	- littleframes 1.4.3
+	- minecraft 1.20.1
+	- modernfix 5.27.66+mc1.20.1
+	- moonlight 1.20-2.16.34
+		\-- mixinsquared 0.1.1
+	- mr_dungeons_andtaverns 3.0.3.f
+	- naturescompass 1.20.1-1.12.0-forge
+	- ntgl 3.1.2
+	- patchouli 1.20.1-85-FORGE
+	- placebo 8.6.3
+	- playeranimator 1.0.2-rc1+1.20
+	- polymorph 0.49.10+1.20.1
+		\-- spectrelib 0.13.17+1.20.1
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- refurbished_furniture 1.0.20
+	- securitycraft 1.9.8
+	- skin_changer 0.6.6
+	- sophisticatedbackpacks 3.24.62.2017
+	- sophisticatedcore 1.3.74.2216
+	- sound_physics_remastered 1.20.1-1.5.1
+	- stalwart_dungeons 1.2.8
+	- structureessentials 1.20.1-5.0
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.22
+	- terrablender 3.0.1.10
+	- tombstone 9.0.9
+	- trashslot 15.1.5
+	- waystones 14.1.20
+	- xaerominimap 26.4.2
+		\-- xaerolib 1.7.1
+	- xaeroworldmap 1.44.2
+[19Aug2026 16:50:33.933] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[19Aug2026 16:50:34.129] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Aug2026 16:50:34.167] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Aug2026 16:50:35.520] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/world/biome/BiomeColorCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.world.biome.BiomeColorCache)
+[19Aug2026 16:50:35.524] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.world.biome.BiomeColorCache was not found betterbiomeblend-embeddium.mixins.json:MixinBiomeColorCache
+[19Aug2026 16:50:35.528] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages)
+[19Aug2026 16:50:35.528] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages was not found betterbiomeblend-embeddium.mixins.json:MixinSodiumGameOptionPages
+[19Aug2026 16:50:36.084] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[19Aug2026 16:50:36.661] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[19Aug2026 16:50:36.805] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (20.45 s after launch)
+[19Aug2026 16:50:37.145] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[19Aug2026 16:50:37.145] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[19Aug2026 16:50:39.083] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2244 milliseconds
+[19Aug2026 16:50:40.071] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Aug2026 16:50:40.072] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Aug2026 16:50:40.293] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Aug2026 16:50:40.294] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Aug2026 16:50:42.161] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$bdm000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[19Aug2026 16:50:43.131] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[19Aug2026 16:50:43.289] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19Aug2026 16:50:44.023] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[19Aug2026 16:50:44.053] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[19Aug2026 16:50:44.056] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[19Aug2026 16:50:44.114] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for trashslot:common (COMMON) with 5 properties.
+[19Aug2026 16:50:44.142] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[19Aug2026 16:50:44.173] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[19Aug2026 16:50:44.202] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[19Aug2026 16:50:44.204] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[19Aug2026 16:50:44.476] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[19Aug2026 16:50:44.477] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[19Aug2026 16:50:44.482] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[19Aug2026 16:50:44.487] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[19Aug2026 16:50:44.490] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[19Aug2026 16:50:44.496] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[19Aug2026 16:50:44.497] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[19Aug2026 16:50:44.504] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[19Aug2026 16:50:44.842] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[19Aug2026 16:50:44.842] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[19Aug2026 16:50:45.834] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[19Aug2026 16:50:45.916] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[19Aug2026 16:50:45.920] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[19Aug2026 16:50:46.119] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[19Aug2026 16:50:46.193] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[19Aug2026 16:50:46.267] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[19Aug2026 16:50:46.327] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[19Aug2026 16:50:46.333] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[19Aug2026 16:50:49.530] [main/INFO] [Moonlight/]: Initialized block sets in 26ms
+[19Aug2026 16:50:49.933] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[19Aug2026 16:50:49.933] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[19Aug2026 16:50:51.086] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[19Aug2026 16:50:51.687] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[19Aug2026 16:50:51.689] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[19Aug2026 16:50:51.896] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
+[19Aug2026 16:50:51.898] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
+[19Aug2026 16:50:52.230] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[19Aug2026 16:50:52.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[19Aug2026 16:50:52.628] [main/INFO] [Moonlight/]: Initialized color sets in 46ms
+[19Aug2026 16:50:52.634] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19Aug2026 16:50:52.635] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[19Aug2026 16:50:52.635] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[19Aug2026 16:50:52.635] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[19Aug2026 16:50:52.636] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[19Aug2026 16:50:52.636] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[19Aug2026 16:50:52.636] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[19Aug2026 16:50:52.726] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[19Aug2026 16:50:52.816] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[19Aug2026 16:50:52.818] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[19Aug2026 16:50:52.820] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[19Aug2026 16:50:52.842] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[19Aug2026 16:50:52.842] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[19Aug2026 16:50:52.842] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[19Aug2026 16:50:52.843] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[19Aug2026 16:50:52.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[19Aug2026 16:50:52.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[19Aug2026 16:50:52.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[19Aug2026 16:50:52.961] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[19Aug2026 16:50:53.169] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[19Aug2026 16:50:53.175] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[19Aug2026 16:50:53.175] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[19Aug2026 16:50:53.189] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[19Aug2026 16:50:53.193] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[19Aug2026 16:50:53.194] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[19Aug2026 16:50:53.196] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[19Aug2026 16:50:53.227] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[19Aug2026 16:50:53.227] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[19Aug2026 16:50:53.228] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
+[19Aug2026 16:50:53.515] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.5.1 Target: null
+[19Aug2026 16:50:53.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Aug2026 16:50:53.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[19Aug2026 16:50:53.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[19Aug2026 16:50:53.658] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.8 Target: 1.10.2.1
+[19Aug2026 16:50:53.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[19Aug2026 16:50:53.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[19Aug2026 16:50:53.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[19Aug2026 16:50:53.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 9.0.9 Target: 9.1.4
+[19Aug2026 16:50:53.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[19Aug2026 16:50:53.779] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[19Aug2026 16:50:53.843] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Aug2026 16:50:54.244] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/proyecto67/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23217!/assets/.mcassetsroot' uses unexpected schema
+[19Aug2026 16:50:54.245] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/proyecto67/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23217!/data/.mcassetsroot' uses unexpected schema
+[19Aug2026 16:50:54.995] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[19Aug2026 16:50:56.659] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[19Aug2026 16:50:56.814] [Worker-Main-3/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-9.0.9.jar
+[19Aug2026 16:50:56.890] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slab as it is missing following references: bygonenether:withered_blackstone_vertical_slab (from bygonenether-1.3.2-1.20.x.jar), 
+	bygonenether:cracked_withered_blackstone_vertical_slab (from bygonenether-1.3.2-1.20.x.jar), 
+	bygonenether:warped_nether_brick_vertical_slab (from bygonenether-1.3.2-1.20.x.jar)
+[19Aug2026 16:50:56.901] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:wraith_spawnable as it is missing following references: quark:soul_stone (from bygonenether-1.3.2-1.20.x.jar)
+[19Aug2026 16:50:56.902] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slab as it is missing following references: bygonenether:withered_blackstone_vertical_slab (from bygonenether-1.3.2-1.20.x.jar), 
+	bygonenether:cracked_withered_blackstone_vertical_slab (from bygonenether-1.3.2-1.20.x.jar), 
+	bygonenether:warped_nether_brick_vertical_slab (from bygonenether-1.3.2-1.20.x.jar)
+[19Aug2026 16:50:57.751] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:bygonenether:blocks/withered_blackstone_vertical_slab
+java.lang.IllegalArgumentException: Can't find block bygonenether:withered_blackstone_vertical_slab
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:88) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23222!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23222!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[19Aug2026 16:50:57.823] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:bygonenether:blocks/cracked_withered_blackstone_vertical_slab
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'bygonenether:cracked_withered_blackstone_vertical_slab'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23222!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23222!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[19Aug2026 16:50:57.985] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:bygonenether:blocks/warped_nether_brick_vertical_slab
+java.lang.IllegalArgumentException: Can't find block bygonenether:warped_nether_brick_vertical_slab
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:88) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23222!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23222!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[19Aug2026 16:50:58.002] [Worker-Main-1/ERROR] [com.nukateam.ntgl.Ntgl/]: Missing required properties for ntgl:cc/equipment/t45/t45_body.json
+[19Aug2026 16:50:58.003] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: java.io.InvalidObjectException: Missing required property: id
+[19Aug2026 16:50:58.003] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.annotation.Validator.isValidObject(Validator.java:30)
+[19Aug2026 16:50:58.004] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$2(ConfigUtils.java:64)
+[19Aug2026 16:50:58.004] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[19Aug2026 16:50:58.004] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$3(ConfigUtils.java:59)
+[19Aug2026 16:50:58.007] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19Aug2026 16:50:58.007] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$4(ConfigUtils.java:46)
+[19Aug2026 16:50:58.007] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[19Aug2026 16:50:58.007] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[19Aug2026 16:50:58.008] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+[19Aug2026 16:50:58.008] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+[19Aug2026 16:50:58.008] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[19Aug2026 16:50:58.009] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[19Aug2026 16:50:58.009] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[19Aug2026 16:50:58.009] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[19Aug2026 16:50:58.009] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[19Aug2026 16:50:58.009] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[19Aug2026 16:50:58.010] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.getConfigMap(ConfigUtils.java:34)
+[19Aug2026 16:50:58.010] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.prepare(NetworkEquipmentManager.java:46)
+[19Aug2026 16:50:58.011] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.m_5944_(NetworkEquipmentManager.java:29)
+[19Aug2026 16:50:58.012] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11)
+[19Aug2026 16:50:58.012] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[19Aug2026 16:50:58.013] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[19Aug2026 16:50:58.013] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[19Aug2026 16:50:58.013] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[19Aug2026 16:50:58.013] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[19Aug2026 16:50:58.013] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[19Aug2026 16:50:58.013] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[19Aug2026 16:50:58.014] [Worker-Main-1/ERROR] [com.nukateam.ntgl.Ntgl/]: Missing required properties for ntgl:cc/equipment/t45/t45_helmet.json
+[19Aug2026 16:50:58.014] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: java.io.InvalidObjectException: Missing required property: id
+[19Aug2026 16:50:58.014] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.annotation.Validator.isValidObject(Validator.java:30)
+[19Aug2026 16:50:58.014] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$2(ConfigUtils.java:64)
+[19Aug2026 16:50:58.014] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[19Aug2026 16:50:58.015] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$3(ConfigUtils.java:59)
+[19Aug2026 16:50:58.015] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19Aug2026 16:50:58.015] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$4(ConfigUtils.java:46)
+[19Aug2026 16:50:58.015] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[19Aug2026 16:50:58.017] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[19Aug2026 16:50:58.017] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+[19Aug2026 16:50:58.018] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+[19Aug2026 16:50:58.018] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[19Aug2026 16:50:58.018] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[19Aug2026 16:50:58.018] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[19Aug2026 16:50:58.018] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[19Aug2026 16:50:58.018] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[19Aug2026 16:50:58.019] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[19Aug2026 16:50:58.019] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.getConfigMap(ConfigUtils.java:34)
+[19Aug2026 16:50:58.019] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.prepare(NetworkEquipmentManager.java:46)
+[19Aug2026 16:50:58.019] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.m_5944_(NetworkEquipmentManager.java:29)
+[19Aug2026 16:50:58.019] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11)
+[19Aug2026 16:50:58.019] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[19Aug2026 16:50:58.019] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[19Aug2026 16:50:58.019] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[19Aug2026 16:50:58.020] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[19Aug2026 16:50:58.020] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[19Aug2026 16:50:58.020] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[19Aug2026 16:50:58.021] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[19Aug2026 16:50:58.021] [Worker-Main-1/ERROR] [com.nukateam.ntgl.Ntgl/]: Missing required properties for ntgl:cc/equipment/t45/t45_left_arm.json
+[19Aug2026 16:50:58.022] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: java.io.InvalidObjectException: Missing required property: id
+[19Aug2026 16:50:58.022] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.annotation.Validator.isValidObject(Validator.java:30)
+[19Aug2026 16:50:58.023] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$2(ConfigUtils.java:64)
+[19Aug2026 16:50:58.023] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[19Aug2026 16:50:58.023] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$3(ConfigUtils.java:59)
+[19Aug2026 16:50:58.024] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19Aug2026 16:50:58.025] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$4(ConfigUtils.java:46)
+[19Aug2026 16:50:58.026] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[19Aug2026 16:50:58.026] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[19Aug2026 16:50:58.026] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+[19Aug2026 16:50:58.027] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+[19Aug2026 16:50:58.027] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[19Aug2026 16:50:58.027] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[19Aug2026 16:50:58.027] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[19Aug2026 16:50:58.027] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[19Aug2026 16:50:58.027] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[19Aug2026 16:50:58.027] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[19Aug2026 16:50:58.027] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.getConfigMap(ConfigUtils.java:34)
+[19Aug2026 16:50:58.028] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.prepare(NetworkEquipmentManager.java:46)
+[19Aug2026 16:50:58.028] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.m_5944_(NetworkEquipmentManager.java:29)
+[19Aug2026 16:50:58.028] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11)
+[19Aug2026 16:50:58.028] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[19Aug2026 16:50:58.028] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[19Aug2026 16:50:58.029] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[19Aug2026 16:50:58.029] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[19Aug2026 16:50:58.029] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[19Aug2026 16:50:58.029] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[19Aug2026 16:50:58.030] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[19Aug2026 16:50:58.030] [Worker-Main-1/ERROR] [com.nukateam.ntgl.Ntgl/]: Missing required properties for ntgl:cc/equipment/t45/t45_left_leg.json
+[19Aug2026 16:50:58.030] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: java.io.InvalidObjectException: Missing required property: id
+[19Aug2026 16:50:58.030] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.annotation.Validator.isValidObject(Validator.java:30)
+[19Aug2026 16:50:58.030] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$2(ConfigUtils.java:64)
+[19Aug2026 16:50:58.031] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[19Aug2026 16:50:58.031] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$3(ConfigUtils.java:59)
+[19Aug2026 16:50:58.031] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19Aug2026 16:50:58.031] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$4(ConfigUtils.java:46)
+[19Aug2026 16:50:58.032] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[19Aug2026 16:50:58.032] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[19Aug2026 16:50:58.032] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+[19Aug2026 16:50:58.032] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+[19Aug2026 16:50:58.032] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[19Aug2026 16:50:58.033] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[19Aug2026 16:50:58.033] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[19Aug2026 16:50:58.034] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[19Aug2026 16:50:58.034] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[19Aug2026 16:50:58.035] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[19Aug2026 16:50:58.035] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.getConfigMap(ConfigUtils.java:34)
+[19Aug2026 16:50:58.035] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.prepare(NetworkEquipmentManager.java:46)
+[19Aug2026 16:50:58.035] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.m_5944_(NetworkEquipmentManager.java:29)
+[19Aug2026 16:50:58.035] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11)
+[19Aug2026 16:50:58.036] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[19Aug2026 16:50:58.036] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[19Aug2026 16:50:58.036] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[19Aug2026 16:50:58.036] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[19Aug2026 16:50:58.036] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[19Aug2026 16:50:58.037] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[19Aug2026 16:50:58.037] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[19Aug2026 16:50:58.038] [Worker-Main-1/ERROR] [com.nukateam.ntgl.Ntgl/]: Missing required properties for ntgl:cc/equipment/t45/t45_right_arm.json
+[19Aug2026 16:50:58.038] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: java.io.InvalidObjectException: Missing required property: id
+[19Aug2026 16:50:58.038] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.annotation.Validator.isValidObject(Validator.java:30)
+[19Aug2026 16:50:58.038] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$2(ConfigUtils.java:64)
+[19Aug2026 16:50:58.039] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[19Aug2026 16:50:58.039] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$3(ConfigUtils.java:59)
+[19Aug2026 16:50:58.039] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19Aug2026 16:50:58.039] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$4(ConfigUtils.java:46)
+[19Aug2026 16:50:58.040] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[19Aug2026 16:50:58.040] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[19Aug2026 16:50:58.041] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+[19Aug2026 16:50:58.041] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+[19Aug2026 16:50:58.041] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[19Aug2026 16:50:58.041] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[19Aug2026 16:50:58.041] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[19Aug2026 16:50:58.041] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[19Aug2026 16:50:58.041] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[19Aug2026 16:50:58.042] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[19Aug2026 16:50:58.042] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.getConfigMap(ConfigUtils.java:34)
+[19Aug2026 16:50:58.042] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.prepare(NetworkEquipmentManager.java:46)
+[19Aug2026 16:50:58.042] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.m_5944_(NetworkEquipmentManager.java:29)
+[19Aug2026 16:50:58.042] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11)
+[19Aug2026 16:50:58.042] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[19Aug2026 16:50:58.042] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[19Aug2026 16:50:58.042] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[19Aug2026 16:50:58.043] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[19Aug2026 16:50:58.043] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[19Aug2026 16:50:58.043] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[19Aug2026 16:50:58.043] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[19Aug2026 16:50:58.046] [Worker-Main-1/ERROR] [com.nukateam.ntgl.Ntgl/]: Missing required properties for ntgl:cc/equipment/t45/t45_right_leg.json
+[19Aug2026 16:50:58.047] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: java.io.InvalidObjectException: Missing required property: id
+[19Aug2026 16:50:58.047] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.annotation.Validator.isValidObject(Validator.java:30)
+[19Aug2026 16:50:58.048] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$2(ConfigUtils.java:64)
+[19Aug2026 16:50:58.048] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[19Aug2026 16:50:58.048] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$3(ConfigUtils.java:59)
+[19Aug2026 16:50:58.049] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19Aug2026 16:50:58.049] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.lambda$getConfigMap$4(ConfigUtils.java:46)
+[19Aug2026 16:50:58.049] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[19Aug2026 16:50:58.049] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[19Aug2026 16:50:58.049] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+[19Aug2026 16:50:58.049] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+[19Aug2026 16:50:58.049] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[19Aug2026 16:50:58.050] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[19Aug2026 16:50:58.050] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[19Aug2026 16:50:58.050] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[19Aug2026 16:50:58.050] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[19Aug2026 16:50:58.051] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[19Aug2026 16:50:58.051] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.chassis_core.modules.config.utils.ConfigUtils.getConfigMap(ConfigUtils.java:34)
+[19Aug2026 16:50:58.051] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.prepare(NetworkEquipmentManager.java:46)
+[19Aug2026 16:50:58.051] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/ntgl@3.1.2/com.nukateam.ntgl.modules.datapack.managers.NetworkEquipmentManager.m_5944_(NetworkEquipmentManager.java:29)
+[19Aug2026 16:50:58.051] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11)
+[19Aug2026 16:50:58.051] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[19Aug2026 16:50:58.052] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[19Aug2026 16:50:58.052] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[19Aug2026 16:50:58.052] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[19Aug2026 16:50:58.052] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[19Aug2026 16:50:58.052] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[19Aug2026 16:50:58.053] [Worker-Main-1/INFO] [STDERR/]: [com.nukateam.chassis_core.modules.config.utils.ConfigUtils:lambda$getConfigMap$2:74]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[19Aug2026 16:50:58.146] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 1 modifier groups
+[19Aug2026 16:50:58.227] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[19Aug2026 16:50:58.250] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_slab_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.252] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_fence_from_poise_planks_sawing as it's serializer returned null
+[19Aug2026 16:50:58.265] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_beehive as it's serializer returned null
+[19Aug2026 16:50:58.267] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:cracked_purpur_block_from_baking as it's serializer returned null
+[19Aug2026 16:50:58.271] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_button_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.289] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_trapdoor_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.294] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_furnace_boat as it's serializer returned null
+[19Aug2026 16:50:58.298] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_slab_from_poise_planks_sawing as it's serializer returned null
+[19Aug2026 16:50:58.300] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:chiseled_poise_bookshelf as it's serializer returned null
+[19Aug2026 16:50:58.301] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_planks_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.303] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:eumus_brick_from_baking as it's serializer returned null
+[19Aug2026 16:50:58.323] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_fence_gate_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.325] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_ladder as it's serializer returned null
+[19Aug2026 16:50:58.326] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_door_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.327] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:trapped_poise_chest as it's serializer returned null
+[19Aug2026 16:50:58.331] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:cracked_eumus_bricks_from_baking as it's serializer returned null
+[19Aug2026 16:50:58.333] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_boards as it's serializer returned null
+[19Aug2026 16:50:58.335] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_sign_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.339] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_boards_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.342] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_stairs_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.347] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_button_from_poise_planks_sawing as it's serializer returned null
+[19Aug2026 16:50:58.348] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_bookshelf as it's serializer returned null
+[19Aug2026 16:50:58.351] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_boards_from_poise_planks_sawing as it's serializer returned null
+[19Aug2026 16:50:58.360] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_pressure_plate_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.363] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_fence_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.364] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:large_poise_boat as it's serializer returned null
+[19Aug2026 16:50:58.368] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_stairs_from_poise_planks_sawing as it's serializer returned null
+[19Aug2026 16:50:58.370] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_ladder_from_poise_planks_sawing as it's serializer returned null
+[19Aug2026 16:50:58.371] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:cracked_end_stone_bricks_from_baking as it's serializer returned null
+[19Aug2026 16:50:58.374] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_ladder_from_poise_stems_sawing as it's serializer returned null
+[19Aug2026 16:50:58.374] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_chest as it's serializer returned null
+[19Aug2026 16:50:58.378] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 19 recipes
+[19Aug2026 16:50:58.390] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 5 modifier groups
+[19Aug2026 16:50:58.590] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3955 advancements
+[19Aug2026 16:50:58.596] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[19Aug2026 16:50:58.614] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id bygonenether:soul_stone_from_block - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: bygonenether:replace_item
+[19Aug2026 16:50:58.614] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id bygonenether:soul_stone_in_catacombs - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: bygonenether:replace_item
+[19Aug2026 16:50:58.617] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 1 modifier groups
+[19Aug2026 16:50:58.630] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[19Aug2026 16:50:58.633] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[19Aug2026 16:50:58.633] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[19Aug2026 16:50:58.691] [main/WARN] [ModernFix/]: Initial datapack load took 4.406 s
+[19Aug2026 16:50:58.830] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[19Aug2026 16:50:58.830] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19Aug2026 16:50:58.831] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[19Aug2026 16:50:58.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Aug2026 16:50:59.003] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[19Aug2026 16:50:59.032] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[19Aug2026 16:50:59.115] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19Aug2026 16:50:59.115] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[19Aug2026 16:50:59.116] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19Aug2026 16:50:59.116] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[19Aug2026 16:50:59.339] [Server thread/INFO] [Framework/]: Loading server configs...
+[19Aug2026 16:50:59.361] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[19Aug2026 16:51:00.083] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19Aug2026 16:51:00.084] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[19Aug2026 16:51:01.375] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:0 potentially creating overlapping structures detected. Structure sets: [minecraft:mineshafts, minecraft:strongholds, minecraft:buried_treasures]
+[19Aug2026 16:51:01.376] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:783 potentially creating overlapping structures detected. Structure sets: [nova_structures:taverns, nova_structures:badlands_miner_outpost]
+[19Aug2026 16:51:01.376] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387312 potentially creating overlapping structures detected. Structure sets: [minecraft:villages, nova_structures:villages_jungle, nova_structures:villages_swamp]
+[19Aug2026 16:51:01.377] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387313 potentially creating overlapping structures detected. Structure sets: [minecraft:ocean_monuments, minecraft:end_cities]
+[19Aug2026 16:51:01.377] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:4533232 potentially creating overlapping structures detected. Structure sets: [nova_structures:illager_camp, nova_structures:nether_camps]
+[19Aug2026 16:51:01.377] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:2 potentially creating overlapping structures detected. Structure sets: [alexscaves:ocean_trench, alexscaves:acid_pit]
+[19Aug2026 16:51:01.378] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:239021 potentially creating overlapping structures detected. Structure sets: [nova_structures:desert_ruins, nova_structures:jungle_ruins]
+[19Aug2026 16:51:01.378] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:3 potentially creating overlapping structures detected. Structure sets: [alexscaves:cake_cave, alexscaves:ferrocave]
+[19Aug2026 16:51:01.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Aug2026 16:51:03.220] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2026 16:51:03.287] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2026 16:51:03.428] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2026 16:51:03.534] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2026 16:51:03.543] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Aug2026 16:51:04.052] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2672 ms
+[19Aug2026 16:51:04.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.925s)! For help, type "help"
+[19Aug2026 16:51:04.210] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[19Aug2026 16:51:04.265] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[19Aug2026 16:51:04.266] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[19Aug2026 16:51:04.267] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[19Aug2026 16:51:04.269] [Server thread/WARN] [ModernFix/]: Dedicated server took 47.912 seconds to load
+[19Aug2026 16:51:17.030] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[19Aug2026 16:51:17.200] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Cars0325[/100.76.96.88:57536] logged in with entity id 809 at (830.3814613416924, 63.0, 1330.0926722430588)
+[19Aug2026 16:51:17.290] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Cars0325
+[19Aug2026 16:51:17.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 joined the game
+[19Aug2026 16:51:17.412] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Cars0325 just logged in with id cdee860c-14b2-399b-9434-7a30a3a1578b
+[19Aug2026 16:51:17.418] [ForkJoinPool-4-worker-1/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Cars0325[cdee860c-14b2-399b-9434-7a30a3a1578b]
+[19Aug2026 16:51:17.469] [Server thread/INFO] [Jade/]: Syncing config to Cars0325 (cdee860c-14b2-399b-9434-7a30a3a1578b)
+[19Aug2026 16:51:17.492] [ForkJoinPool-4-worker-1/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/Cars0325 downloaded
+[19Aug2026 16:51:18.084] [ForkJoinPool-4-worker-1/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: Error downloading file https://crafatar.com/capes/09fdc1a4-d9e5-45b6-8a9e-631408135927
+[19Aug2026 16:52:52.135] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrFlac17[/100.66.10.93:58762] logged in with entity id 1259 at (800.433164698499, 67.0, 896.3544723278691)
+[19Aug2026 16:52:52.146] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrFlac17
+[19Aug2026 16:52:52.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrFlac17 joined the game
+[19Aug2026 16:52:52.173] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player MrFlac17 just logged in with id f1127a15-a502-3420-8219-95f2bfd01369
+[19Aug2026 16:52:52.180] [ForkJoinPool-4-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player MrFlac17[f1127a15-a502-3420-8219-95f2bfd01369]
+[19Aug2026 16:52:52.186] [Server thread/INFO] [Jade/]: Syncing config to MrFlac17 (f1127a15-a502-3420-8219-95f2bfd01369)
+[19Aug2026 16:52:52.245] [ForkJoinPool-4-worker-2/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/MrFlac17 downloaded
+[19Aug2026 16:52:52.459] [ForkJoinPool-4-worker-2/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: Error downloading file https://crafatar.com/capes/3a538bc4-4306-4dd5-89f7-4305469a9322
+[19Aug2026 17:08:44.479] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cars0325 lost connection: Disconnected
+[19Aug2026 17:08:44.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 left the game
+[19Aug2026 17:08:44.480] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Cars0325[cdee860c-14b2-399b-9434-7a30a3a1578b]
+[19Aug2026 17:11:27.330] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrFlac17 lost connection: Disconnected
+[19Aug2026 17:11:27.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrFlac17 left the game
+[19Aug2026 17:11:27.331] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player MrFlac17[f1127a15-a502-3420-8219-95f2bfd01369]
+[19Aug2026 17:11:31.051] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3681ms or 73 ticks behind
+[19Aug2026 17:11:46.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[19Aug2026 17:11:47.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19Aug2026 17:11:47.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19Aug2026 17:11:47.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19Aug2026 17:11:47.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19Aug2026 17:11:47.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19Aug2026 17:11:47.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19Aug2026 17:11:47.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19Aug2026 17:11:47.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19Aug2026 17:11:47.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19Aug2026 17:11:47.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19Aug2026 17:11:47.351] [Server thread/INFO] [Framework/]: Unloading server configs...
+[19Aug2026 17:11:47.352] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[19Aug2026 17:11:47.354] [Server thread/INFO] [Framework/]: Finished unloading server configs
